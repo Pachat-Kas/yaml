@@ -1,8 +1,7 @@
 import { parseDocument, stringify } from 'yaml'
 
 test('tag test', () => {
-  const broken = `
-- x: !!null
+  const broken = `- x: !!null
 
 - y
 `;
